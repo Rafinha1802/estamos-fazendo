@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-container.hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(255, 204, 204, 0.2);
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.profile-container {
+  border-radius: 10px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  background-color: #fdbf41;
+  gap: 5px;
+  border: 5px solid #f76c09;
+  padding: 20px;
+}
+.profile-container figure img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid #3d2514;
+}
+
+.profile-container p {
+  color: #3d2514;
+  margin-right: 20px;
+  font-size: large;
+  align-items: flex-end;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: -0.5px;
+}
+
+.profile-container h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: #3d2514;
+  word-break: normal;
+  letter-spacing: -0.5px;
+}

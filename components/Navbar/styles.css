@@ -1,0 +1,48 @@
+.navbar {
+  height: 100px;
+  background-color: #fdbf41;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.navbar .container .logo {
+  width: 5%;
+}
+
+.navbar .container .logo img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar .container .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .container .links li {
+  list-style: none;
+}
+
+.navbar .container .links li a {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0 10px;
+  color: #3d2514;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", Sans-serif;
+  letter-spacing: 2.6px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .container .links li a:hover {
+  color: #f76c09;
+}

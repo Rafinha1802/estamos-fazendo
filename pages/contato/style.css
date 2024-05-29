@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-page {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+.fotocad {
+  height: 600px;
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-page {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .fotocad {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+.containercad {
+  margin-top: 10px;
+  background-color: #fdbf41;
+  padding: 30px;
+  border-radius: 8px;
+  width: 400px;
+  justify-content: left;
+  font-family: "Bebas Neue", Sans-serif;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #5a5a5a;
+}
+
+.input-group [type="text"],
+.input-group [type="email"],
+.input-group [type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+legend {
+  margin-top: 20px;
+}
+
+.opcao {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  transition: transform 0.5;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+  font-size: small;
+}

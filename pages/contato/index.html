@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../components/Navbar/styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbar-placeholder"></div>
+    <script src="../../components/Navbar/loadNavbar.js"></script>
+
+    <div class="flex-page">
+      <img class="fotocad" src="../../assets/fotocad.png" alt="" />
+      <div class="containercad">
+        <form id="formCadastro">
+          <h2>Cadastre-se</h2>
+
+          <div class="input-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="telefone">Telefone:</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              onkeyup="detecta()"
+            />
+            <p id="aviso"></p>
+          </div>
+
+          <legend><b>Escolha somente uma opção</b></legend>
+
+          <div class="opcao">
+            <label for="opção">
+              <input type="radio" id="sugestão" name="opção" value="sugestão" />
+              Sugestão de série
+            </label>
+
+            <label for="opção">
+              <input type="radio" id="melhorar" name="opção" value="melhorar" />
+              Como melhorar nosso site
+            </label>
+          </div>
+
+          <legend><b>Mensagem</b></legend>
+
+          <textarea id="opiniao" name="opiniao" rows="4"></textarea>
+
+          <button
+            id="btnEnviar"
+            class="button"
+            type="submit"
+            onmouseover="aumenta()"
+            onmouseleave="diminui()"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

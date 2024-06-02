@@ -1,11 +1,13 @@
-const profileContainers = document.querySelectorAll('.profile-container');
+document.addEventListener("DOMContentLoaded", function () {
+  const profileContainers = document.querySelectorAll(".profile-container");
 
-profileContainers.forEach(container => {
-	container.addEventListener('mouseenter', () => {
-		container.classList.add('hover');
-	});
+  profileContainers.forEach((container) => {
+    container.addEventListener("mouseenter", () => {
+      container.classList.add("hover");
+    });
 
-	container.addEventListener('mouseleave', () => {
-		container.classList.remove('hover');
-	});
+    container.addEventListener("mouseleave", () => {
+      container.classList.remove("hover");
+    });
+  });
 });

@@ -14,7 +14,7 @@
 .container1 {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
@@ -27,10 +27,11 @@
   display: flex;
   align-items: center;
   background-color: #fdbf41;
-  gap: 5px;
+  gap: 10px;
   border: 5px solid #f76c09;
   padding: 20px;
 }
+
 .profile-container figure img {
   width: 80px;
   height: 80px;
@@ -38,7 +39,7 @@
   border: 5px solid #3d2514;
 }
 
-.profile-container p {
+.profile-container h2 {
   color: #3d2514;
   margin-right: 20px;
   font-size: large;
@@ -47,7 +48,7 @@
   letter-spacing: -0.5px;
 }
 
-.profile-container h1 {
+.profile-container p {
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   color: #3d2514;
